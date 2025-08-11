@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta 
+    charset="UTF-8">
+    <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>
+        Form
+    </title>
+</head>
+<body>
+    <!-- form -->
+     <div>
+    <form action="prosese.php" method="post">
+        <fieldset>
+            <legend>
+                From
+            </legend>
+        <p>
+            <label>username</label> 
+            <input 
+            type="text" 
+            name="username" 
+            placeholder="username...">
+        </p>
+        <p>
+            <label>password</label>
+            <input 
+            type="password" 
+            name="password" 
+            placeholder="password...">
+        </p>
+        <p>
+           <label>
+            <input 
+            type="checkbox" 
+            name="remember" 
+            value="remember me">
+           </label>remember me
+        </p>
+        <p>
+            <input 
+            type="submit" 
+            name="submit" 
+            value="login">
+        </p>
+        </fieldset>
+    </form>
+    </div>
+    <br>
+    <!-- contact -->
+     <div>
+    <form action="Contact.php" method="post">
+        <fieldset>
+            <legend>
+                login
+            </legend>
+            <p>
+                <label>username</label>
+                <input 
+                type="text" 
+                name="username"
+                placeholder="username...">   
+            </p>
+            <p>
+                <label>subject </label>
+                <input 
+                type="text" 
+                name="subject"
+                 placeholder="subject..">
+            </p>
+            <p>
+                <label>Email</label>
+                <input 
+                type="email" 
+                name="email" 
+                placeholder="your email...">
+                <p>
+                    
+                    <input 
+                    type="submit" 
+                    name="submit" 
+                    value="send">
+                </p>
+        </fieldset>
+    </form>
+    </div>
+    <br>
+    <!-- Register -->
+     <div>
+    <form action="Register.php" method="post">
+        <fieldset>
+            <legend>
+                <span style="color: red;">
+                    Register
+                </span>
+            </legend>
+            <p>
+                <label>Nama lengkap:</label>
+                <input 
+                type="text" 
+                name="nama" 
+                placeholder="nama lengkap...">
+            </p>
+            <p>
+                <label>username:</label>
+                <input 
+                type="text" 
+                name="username" 
+                placeholder="username...">
+            </p>
+            <p>
+                <label>password:</label>
+                <input 
+                type="password" 
+                name="password" 
+                placeholder="password...">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input 
+                type="email" 
+                name="email" 
+                placeholder="your email...">
+            </p>
+            <p>
+                <input 
+                type="submit" 
+                name="submit" 
+                value="register">
+            </p>
+            <hr>
+            <br>
+            <br>
+            <p>
+                <label>jenis kelamin:</label>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="jenis_kelamin" 
+                    value="laki-laki">Laki-laki
+                </label>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="jenis_kelamin" 
+                    value="perempuan">
+                    Perempuan
+                </label>
+            </p>
+            <p>
+                <label>Agama</label>
+                <select name="Agama">
+                    <option value="islam">islam</option>
+                    <option value="kristen">kristen</option>
+                    <option value="hindu">hindu</option>
+                    <option value="budha">budha</option>
+                    <option value="konghucu">konghucu</option>
+                    <option value="lainnya">lainnya</option>
+                </select>
+            </p>
+            <p>
+                <label>Biografi</label>
+                <textarea 
+                name="biografi" 
+                cols="30" 
+                rows="10" 
+                placeholder="ceritakan biografimu...">
+            </textarea>
+            </p>
+            <p>
+                <label>Alamat</label>
+                <input 
+                type="url" 
+                name="name" 
+                placeholder="Masukan URL Web...">
+               </input>
+            </p>
+            <p>
+                <label>Tanggal lahir</label>
+                <input 
+                type="date" 
+                name="Tanggal" >
+            </p>
+            <p>
+                <label>Umur</label>
+                <input 
+                type="number" 
+                min="1" 
+                max="100" 
+                name="umur">
+            </p>
+            <p>
+                <input 
+                type="submit" 
+                name="Submit" 
+                value="Send">
+            </p>
+        </fieldset>
+        </div>
+</body>
+</html>

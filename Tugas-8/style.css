@@ -1,0 +1,38 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+/* ini taxt */
+img {
+  width: 700px;
+  height: 500px;
+  border-radius: 100px;
+}
+i{
+  color: black;
+}
+.Sengoku {
+  color: red;
+}
+ins{
+  color: blue;
+  text-decoration: none;
+}
+quote {
+  color: black;
+}
+blockquote {
+  color: gray;
+}
+.Toda{
+    color:red;
+}
+.Inumaki{
+    color: red;
+}
+.Edo{
+    color: blue;
+}
+.N{
+    color:blue;
+}

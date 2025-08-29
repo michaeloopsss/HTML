@@ -1,0 +1,41 @@
+.A {
+  color: red;
+  text-align: center;
+}
+img {
+  width: 700px;
+  height: 500px;
+  border-radius: 100px;
+}
+h2.I {
+  color: green;
+  text-align: center;
+}
+.k {
+  color: black;
+}
+p {
+  color: black;
+  font-family: "Arial", sans-serif;
+}
+h3 {
+  color: black;
+  font-family: "Arial", sans-serif;
+}
+.D {
+  color: black;
+  text-decoration:none ;
+}
+.U {
+  color: red;
+}
+.F {
+  color: red;
+}
+.H {
+  color: red;
+}
+.T {
+  color: gray;
+  text-align: center;
+}   

@@ -1,0 +1,40 @@
+#header {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.n {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration-line: none;
+  text-align: center;
+}
+.I {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration-line: none;
+  text-align: center;
+}
+.im {
+  width: 100%;
+  border-radius: 5px;
+    
+}
+.h {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration-line: none;
+  text-align: center;
+}
+.L {
+  width: 10%;
+}
+.F {
+  background-color: green;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,75 @@
+.kiwi{
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+
+}
+.kiwi img{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.mangga{
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+
+}
+.mangga img{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.Jeruk{
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+
+}
+.Jeruk img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.kiwi:hover{
+    background-color: lightgreen;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.mangga:hover{
+    background-color: lightgreen;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.Jeruk:hover{
+    background-color: lightgreen;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

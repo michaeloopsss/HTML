@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartu Produk & Feedback</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #f7f7f7;
+        line-height: 1.5;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .Product1 {
+        width: 320px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background: #fff;
+        padding: 16px;
+        margin: 8px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+
+      .Product1 h3 {
+        margin-bottom: 8px;
+        font-size: 1.2rem;
+      }
+
+      .Product1 p {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 12px;
+      }
+
+      .Product1 button {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      .card button:hover {
+        background: #0056b3;
+      }
+
+      /* Feedback card */
+      .feedback {
+        margin-top: 16px;
+        padding: 16px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .feedback h4 {
+        margin-bottom: 8px;
+      }
+
+      .rating {
+        color: #ffc107;
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 700px) {
+        .cards {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .K{
+         width: 320px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background: #fff;
+        padding: 16px;
+        margin: 8px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .K h4 {
+        margin-bottom: 8px;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 16px">Produk Kami</h2>
+
+      <div class="cards">
+        <!-- Kartu Produk 1 -->
+        <div class="Product1">
+          <img src="Pokka.png" alt="Pokka vanila" />
+          <h3>Pokka vanila</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nemo?
+          </p>
+          <button>Beli Sekarang</button>
+        </div>
+
+        <!-- Kartu Produk 2 -->
+        <div class="Product1">
+          <img src="Pokka.png" alt="Produk 2" />
+          <h3>Pokka vanila</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repellat.
+          </p>
+          <button>Beli Sekarang</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- Ratting -->
+        <div class="K">
+            <h4>Ratting</h4>
+        <p><strong>Nama:</strong> Andi electric</p>
+        <p class="rating">★★★★★</p>
+        <p>
+            "Produk berkualitas, pengiriman cepat, dan sangat memuaskan.
+          Recommended!"
+        </p>
+        </div>
+        <!-- Ratting -->
+        <div class="K">
+            <h4>Ratting</h4>
+        <p><strong>Nama:</strong> Andi electric</p>
+        <p class="rating">★★★★★</p>
+        <p>
+            "Produk berkualitas, pengiriman cepat, dan sangat memuaskan.
+          Recommended!"
+        </p>
+        </div>
+    </div>
+  </body>
+</html>

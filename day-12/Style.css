@@ -1,0 +1,10 @@
+header,
+section{
+    width: 50em;
+    height: 9vh;
+    color: white;
+    background-color: turquoise;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1em;
+}

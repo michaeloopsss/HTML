@@ -5,17 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #container{
+        text-align: center;
+        color: black;
+        font-size: 22px;
+    }
+    #header{
+        height: 100px;
+        background-color: grey;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-align: center;
+    }
+    #content{
+        width: 75%;
+        height: 250px;
+        background-color: green;
+        float: left;
+    }
+    #sidebar{
+        width: 25%;
+        height: 250px;
+        background-color: blue;
+        float: right;
+    }
+    #footer{
+        height: 50px;
+        background-color: grey;
+        clear: both;
+    }
+</style>
+<!-- <style>
+    .clearfix{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .container{
+        width: 100%;
+    }
+    .Sidebar{
+        float: left;
+        width: 30%;
+        background-color: #f0f0f0;
+    }
+    .konten{
+        float: right;
+        width: 70%;
+        background-color: #e0e0e0;
+    }
+    .clearfix ::after{
+        content: "";
+        display: block;
+        clear: both;
+    } -->
+<!-- </style>
 <body>
-    <p style="margin-left: 160px;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam veritatis similique ea consectetur! Alias quod aperiam eius necessitatibus. Nemo mollitia ipsum cumque officia ducimus explicabo soluta eaque nobis quaerat. Aut.
+   <div class="clearfix">
+    <div style="float: left;">Elemen 1</div>
+    <div style="float: right;">Elemen 2</div>
+   </div>
+   <div class="container">
+    <div class="Sidebar">ini adalah sidebar</div>
+    <div class="konten">ini adalah konten utama</div>
+   </div> -->
+   <div id="container">
+    <h1>
+        INI
+    </h1>
+
+   </div>
+   <div id="header">
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+   </div>
+   <div id="content">
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae repellendus explicabo maxime doloribus laborum placeat. Odit ad incidunt autem.
+   </p>
+   </div>
+   <div id="sidebar">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt inventore fuga tempora blanditiis aspernatur laborum porro ipsum expedita distinctio velit quod eum maiores excepturi molestias, ratione corporis rerum eaque.
     </p>
-    <img src="" alt="gambar" style="float: left; width: 150pxx` ;">
-    <div style="clear: left;width: 150px;height: 150px; background-color: aqua;">
-        
-    </div>
-    <div class="clearfix">
-        <div style="float: left;">elemen 1</div>
-        <div style="float: right;">elemen 2</div>
-    </div>
+   </div>
+   <div id="footer">
+   &copy;Mikdam html
+   </div>
 </body>
 </html>

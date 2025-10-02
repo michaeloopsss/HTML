@@ -37,7 +37,6 @@
         padding: 16px;
         margin: 8px;
         text-align: center;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       }
 
       .card img {
@@ -70,34 +69,19 @@
       .card button:hover {
         background: #0056b3;
       }
-
-      /* Feedback card */
-      .feedback {
-        margin-top: 16px;
-        padding: 16px;
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        background: #fff;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      .cards :hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-4px);
+        transition: all 0.3s ease;
       }
-
-      .feedback h4 {
-        margin-bottom: 8px;
+      .Product1 p,
+      h3,
+      button,
+      img {
+        pointer-events: none;
       }
-
-      .rating {
-        color: #ffc107;
-        margin-bottom: 8px;
-      }
-
-      @media (max-width: 700px) {
-        .cards {
-          flex-direction: column;
-          align-items: center;
-        }
-      }
-      .K{
-         width: 320px;
+      .K {
+        width: 320px;
         border: 1px solid #ddd;
         border-radius: 12px;
         background: #fff;
@@ -110,19 +94,53 @@
         margin-bottom: 8px;
         font-size: 1.2rem;
       }
+      .rating {
+        font-size: 0.9rem;
+        color: yellow;
+        margin-bottom: 12px;
+      }
+      .K p,
+      h4 {
+        pointer-events: none;
+      }
+      ul.navigasi {
+        position: sticky;
+        top: 0px;
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: #007bff;
+        border-radius: 10px;
+      }
+      ul.navigasi li {
+        float: left;
+      }
+      ul.navigasi li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
+    <ul class="navigasi">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
     <div class="container">
       <h2 style="text-align: center; margin-bottom: 16px">Produk Kami</h2>
 
       <div class="cards">
-        <!-- Kartu Produk 1 -->
+        <!-- Kartu Produk 1 -- -->
         <div class="Product1">
           <img src="Pokka.png" alt="Pokka vanila" />
           <h3>Pokka vanila</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nemo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+            nemo?
           </p>
           <button>Beli Sekarang</button>
         </div>
@@ -132,33 +150,35 @@
           <img src="Pokka.png" alt="Produk 2" />
           <h3>Pokka vanila</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repellat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+            repellat.
           </p>
           <button>Beli Sekarang</button>
         </div>
       </div>
-
       <div class="cards">
         <!-- Ratting -->
         <div class="K">
-            <h4>Ratting</h4>
-        <p><strong>Nama:</strong> Andi electric</p>
-        <p class="rating">★★★★★</p>
-        <p>
+          <h4>Ratting</h4>
+          <p><strong>Nama:</strong> Andi electric</p>
+          <p class="rating">★★★★★</p>
+          <p>
             "Produk berkualitas, pengiriman cepat, dan sangat memuaskan.
-          Recommended!"
-        </p>
+            Recommended!"
+          </p>
         </div>
-        <!-- Ratting -->
-        <div class="K">
+        <div class="cards">
+          <div class="K">
             <h4>Ratting</h4>
-        <p><strong>Nama:</strong> Andi electric</p>
-        <p class="rating">★★★★★</p>
-        <p>
-            "Produk berkualitas, pengiriman cepat, dan sangat memuaskan.
-          Recommended!"
-        </p>
+            <p><strong>Nama:</strong> Andi electric</p>
+            <p class="rating">★★★★★</p>
+            <p>
+              "Produk berkualitas, pengiriman cepat, dan sangat memuaskan.
+              Recommended!"
+            </p>
+          </div>
         </div>
+      </div>
     </div>
   </body>
 </html>

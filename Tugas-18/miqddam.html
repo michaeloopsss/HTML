@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Seperti Gambar Pertama</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 400px;
+        background-color: darkblue;
+        overflow-y: scroll;
+        padding-top: 20px;
+      }
+
+      .sidebar a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px;
+      }
+
+      .sidebar a:hover {
+        background-color: #001f80;
+      }
+
+      .content {
+        margin-left: 160px;
+        padding: 20px;
+        overflow-y: scroll;
+      }
+
+      .content p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .spacer {
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <a href="#">Item 3</a>
+      <a href="#">Item 4</a>
+      <a href="#">Item 5</a>
+      <a href="#">Item 6</a>
+      <a href="#">Item 7</a>
+      <a href="#">Item 8</a>
+      <a href="#">Item 9</a>
+      <a href="#">Item 10</a>
+      <a href="#">Item 11</a>
+    </div>
+
+    <div class="content">
+      <p>ini adalah isi konten nya</p>
+      <div class="spacer"></div>
+      <p>p</p>
+    </div>
+  </body>
+</html>

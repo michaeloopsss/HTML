@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lists in HTML</title>
+<style>
+ 
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 46px;
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 72%);
+    color: white;
+    text-shadow: #333 2px 2px 4px;
+    padding: 10px;
+    margin: 0 0 30px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+
+  .card {
+    width: 320px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .card-header {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+  }
+
+  .ordered {
+    border-bottom: 6px solid #f15b2a;
+  }
+  .ordered .card-header {
+    background: #f15b2a;
+  }
+
+  .unordered {
+    border-bottom: 6px solid #f5b400;
+  }
+  .unordered .card-header {
+    background: #f5b400;
+  }
+
+  .description {
+    border-bottom: 6px solid #0077c8;
+  }
+  .description .card-header {
+    background: #0077c8;
+  }
+
+  /* Isi konten box */
+  .card-content {
+    padding: 20px 30px;
+  }
+
+  /* ===== Ordered List ===== */
+  ol {
+    margin: 0;
+    padding-left: 25px;
+  }
+  ol li {
+    margin: 6px 0;
+    padding: 6px 8px;
+    border-radius: 4px;
+    list-style-position: inside;
+  }
+
+  /* ===== Unordered List ===== */
+  ul {
+    margin: 0;
+    padding-left: 30px;
+  }
+  ul li {
+    margin: 8px 0;
+    padding: 5px 8px;
+    list-style-position: outside;
+  }
+  
+  ul li:nth-child(1),
+  ul li:nth-child(2) {
+    list-style-type: square;
+  }
+  ul li:nth-child(3),
+  ul li:nth-child(4) {
+    list-style-type: circle;
+    background-color: #f0f0f0;
+  }
+  ul li:nth-child(5),
+  ul li:nth-child(6) {
+    list-style-type: disc;
+  }
+
+  /* ===== Description List ===== */
+  dl {
+    margin: 0;
+  }
+  dt {
+    font-weight: bold;
+    color: #d50000;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  dd {
+    margin-left: 0;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 11px;
+  }
+  .H1, .H2, .H3 {
+    background-color: #f0f0f0;
+  }
+  .H4, .H5 {
+    background-color: #e0e0e0;
+  }
+  
+</style>
+</head>
+<body>
+
+  <h1>Lists in HTML</h1>
+
+  <div class="container">
+    <!-- Ordered List -->
+    <div class="card ordered">
+      <div class="card-header">Ordered List</div>
+      <div class="card-content">
+        <ol>
+          <li>Information Gathering</li>
+          <li class="H1">Planning</li>
+          <li>Design</li>
+          <li class="H2">Development</li>
+          <li>Testing & Deployment</li>
+          <li class="H3">Maintenance</li>
+        </ol>
+      </div>
+    </div>
+
+   
+    <div class="card unordered">
+      <div class="card-header">Unordered List</div>
+      <div class="card-content">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </div>
+
+   
+    <div class="card description">
+      <div class="card-header">Description List</div>
+      <div class="card-content">
+        <dl>
+          <dt>HTML</dt>
+          <dd>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.</dd>
+
+          <dt>CSS</dt>
+          <dd>CSS is the acronym of “Cascading Style Sheets”. CSS is the language used to style an HTML document. CSS describes how HTML elements should be displayed.</dd>
+
+          <dt>PHP</dt>
+          <dd>PHP is an acronym for "PHP: Hypertext Preprocessor". PHP is a server scripting language and a powerful tool for making dynamic and interactive Web pages.</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
